@@ -1,1 +1,100 @@
-Hell0 W0rld
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Fulibacsi.github.io by fulibacsi</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Fulibacsi.github.io</h1>
+        <h2></h2>
+
+        <section id="downloads">
+          <a href="https://github.com/fulibacsi" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h3>
+<a name="welcome-to-fulibacsis-page" class="anchor" href="#welcome-to-fulibacsis-page"><span class="octicon octicon-link"></span></a>Welcome to fulibacsi's Page.</h3>
+
+<h1>
+<a name="how-to-install-ipython-in-windows" class="anchor" href="#how-to-install-ipython-in-windows"><span class="octicon octicon-link"></span></a>How to install IPython in Windows</h1>
+
+<h2>
+<a name="tldr" class="anchor" href="#tldr"><span class="octicon octicon-link"></span></a>TL;DR:</h2>
+
+<ol>
+<li>Install python.</li>
+<li>Make sure that python is in the system’s path.</li>
+<li>Make sure that python in in pythonpath.</li>
+<li>Download setuptools from: <a href="https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py">https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py</a>
+</li>
+<li>Install setuptools from an administrator command line by executing python ez_setup.py.</li>
+<li>Install ipython by executing easy_install ipython[all] command from the your_python_directory\Scripts folder.</li>
+<li>Test it.</li>
+<li>In case of failure, download and install the appropriate version (highest version number, x86/amd64, python 2.7, .msi extension) of pyzmq from <a href="https://github.com/zeromq/pyzmq/downloads">https://github.com/zeromq/pyzmq/downloads</a>.</li>
+<li>Install jinja2 with easy_install: easy_install jinja2</li>
+<li>Install tornado as well: easy_install tornado</li>
+<li>If it is still fails with unicode error during executing notebooks, add IPYTHONDIR as a new environmental variable with a non-unicode directory (probably Python27\Scripts)</li>
+<li>Enjoy it.</li>
+</ol><h2>
+<a name="in-details" class="anchor" href="#in-details"><span class="octicon octicon-link"></span></a>In details:</h2>
+
+<h3>
+<a name="1-install-python" class="anchor" href="#1-install-python"><span class="octicon octicon-link"></span></a>1. Install python</h3>
+
+<p>Download the latest python version from: <a href="http://www.python.org/download/">http://www.python.org/download/</a>
+Install it.
+Add python to system’s path. (how to: <a href="http://www.itechtalk.com/thread3595.html">http://www.itechtalk.com/thread3595.html</a>)
+Add pythonpath to the system. (how to: the same as above. If pythonpath is not in the list, create it.)</p>
+
+<h3>
+<a name="5-install-setuptools" class="anchor" href="#5-install-setuptools"><span class="octicon octicon-link"></span></a>5. Install setuptools</h3>
+
+<p>Hit windows/super button.
+Start typing cmd
+Right click on cmd.exe &gt; Run as administrator
+Go to the directory where the ez_setup.py is located. (Use the cd command to change directory)
+Execute python ez_setup.py.</p>
+
+<h3>
+<a name="7-test-it" class="anchor" href="#7-test-it"><span class="octicon octicon-link"></span></a>7. Test it.</h3>
+
+<p>Go to your_python_directory\Scripts folder.
+Start iptest.exe</p>
+
+<h3>
+<a name="8-enjoy-it" class="anchor" href="#8-enjoy-it"><span class="octicon octicon-link"></span></a>8. Enjoy it.</h3>
+
+<p>Use ipython.exe.
+Or use ipython notebook for the notebook version.</p>
+
+<h1>
+<a name="how-to-install-ipython-in-ubuntu" class="anchor" href="#how-to-install-ipython-in-ubuntu"><span class="octicon octicon-link"></span></a>How to install IPython in Ubuntu</h1>
+
+<h2>
+<a name="tldr-1" class="anchor" href="#tldr-1"><span class="octicon octicon-link"></span></a>TL;DR:</h2>
+
+<ol>
+<li>Execute: sudo apt-get install python ipython*
+## In derails:
+No need :D</li>
+</ol>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
