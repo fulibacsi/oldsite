@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="./javascripts/main.js"></script>
 
     <title>Fulibacsi.github.io by fulibacsi</title>
   </head>
@@ -16,113 +18,114 @@
     <header>
       <div class="container">
         <h1>Fulibacsi.github.io</h1>
-        <h2></h2>
 
         <section id="downloads">
           <a href="https://github.com/fulibacsi" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
+
       </div>
     </header>
 
     <div class="container">
-      <section id="content_triggers">
-        <span id="root">/</span>
-        <span id="szisz_course_announce">About SzISz course</span>
-        <span id="ipython_install">How-to: install iPython</span>
+
+      <section id="content_triggers" class="left">
+        <span id="root" class="btn">/</span>
+        <span id="szisz_course_announce" class="btn">About SzISz course</span>
+        <span id="ipython_install" class="btn">How-to: install iPython</span>
       </section>
-      <section id="main_content" class="ipython_install">
-        <div class="szisz_course_announce">
-        <h1>
-<a name="szisz-course-kickstart" class="anchor" href="#szisz-course-kickstart"><span class="octicon octicon-link"></span></a>SzISz course kickstart</h1>
 
-<p>Dear participants! </p>
+      <section id="main_content" class="left">
 
-<p>My name is András Fülöp, I'm going to assist you in the journey into the depths of Python. I hope you'll like the trip!</p>
+        <div class="root left">
+          <h1>Welcome.</h1>
+        </div>
 
-<p>I'm going to push every important updates and info about the course into this page, so please check back once a week. For our first class, please bring your laptop with ipython-notebook pre-installed. You can read a short how-to about the installation below, please follow the steps. </p>
+        <div class="szisz_course_announce left active">
+          <h1>SzISz course</h1>
+          <p>Dear participants! </p>
+          <p>My name is András Fülöp, I'm going to assist you in the journey into the depths of Python. I hope you'll like the trip!</p>
+          <p>I'm going to push every important updates and info about the course into this page, so please check back once a week. For our first class, please bring your laptop with ipython-notebook pre-installed. You can read a short how-to about the installation below, please follow the steps. </p>
+          <p>In case you have some problem with the installation or have a question or two about the course, please do not hesitate to contact me at fulibacsi.at.gmail.com.</p>
+          <p>Sincerely,<br>
+            András Fülöp</p>
+          <hr>
+        </div>
 
-<p>In case you have some problem with the installation or have a question or two about the course, please do not hesitate to contact me at fulibacsi.at.gmail.com.</p>
 
-<p>Sincerely,<br>
-  András Fülöp</p>
+        <div class="ipython_install left">
+          <h1>How to install IPython in Windows</h1>
 
-<hr>
-</div>
-<div class="ipython_install">
-<h1>
-<a name="how-to-install-ipython-in-windows" class="anchor" href="#how-to-install-ipython-in-windows"><span class="octicon octicon-link"></span></a>How to install IPython in Windows</h1>
+          <h2>TL;DR:</h2>
 
-<h2>
-<a name="tldr" class="anchor" href="#tldr"><span class="octicon octicon-link"></span></a>TL;DR:</h2>
+          <ol>
+            <li>Install python.</li>
+            <li>Make sure that python is in the system’s path.</li>
+            <li>Make sure that python in in pythonpath.</li>
+            <li>Download setuptools from: <a href="https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py">https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py</a>
+            </li>
+            <li>Install setuptools from an administrator command line by executing <code>python ez_setup.py</code>.</li>
+            <li>Install ipython by executing <code>easy_install ipython[all]</code> command from the <code>your_python_directory\Scripts</code> folder.</li>
+            <li>Test it.</li>
+            <li>In case of failure, download and install the appropriate version (highest version number, x86/amd64, python 2.7, .msi extension) of pyzmq from <a href="https://github.com/zeromq/pyzmq/downloads">https://github.com/zeromq/pyzmq/downloads</a>.</li>
+            <li>Install jinja2 with easy_install: <code>easy_install jinja2</code>
+            </li>
+            <li>Install tornado as well: <code>easy_install tornado</code>
+            </li>
+            <li>If it is still fails with unicode error during executing notebooks, add IPYTHONDIR as a new environmental variable with a non-unicode directory (probably Python27\Scripts)</li>
+            <li>Enjoy it.</li>
+          </ol>
 
-<ol>
-<li>Install python.</li>
-<li>Make sure that python is in the system’s path.</li>
-<li>Make sure that python in in pythonpath.</li>
-<li>Download setuptools from: <a href="https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py">https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py</a>
-</li>
-<li>Install setuptools from an administrator command line by executing <code>python ez_setup.py</code>.</li>
-<li>Install ipython by executing <code>easy_install ipython[all]</code> command from the <code>your_python_directory\Scripts</code> folder.</li>
-<li>Test it.</li>
-<li>In case of failure, download and install the appropriate version (highest version number, x86/amd64, python 2.7, .msi extension) of pyzmq from <a href="https://github.com/zeromq/pyzmq/downloads">https://github.com/zeromq/pyzmq/downloads</a>.</li>
-<li>Install jinja2 with easy_install: <code>easy_install jinja2</code>
-</li>
-<li>Install tornado as well: <code>easy_install tornado</code>
-</li>
-<li>If it is still fails with unicode error during executing notebooks, add IPYTHONDIR as a new environmental variable with a non-unicode directory (probably Python27\Scripts)</li>
-<li>Enjoy it.</li>
-</ol><h2>
-<a name="in-details" class="anchor" href="#in-details"><span class="octicon octicon-link"></span></a>In details:</h2>
+          <h2>In details:</h2>
 
-<h3>
-<a name="1-install-python" class="anchor" href="#1-install-python"><span class="octicon octicon-link"></span></a>1. Install python</h3>
+          <h3>1. Install python</h3>
+          <ul>
+            <li>Download the latest python version from: <a href="http://www.python.org/download/">http://www.python.org/download/</a>
+            </li>
+            <li>Install it.</li>
+            <li>Add python to system’s path. (how-to: <a href="http://www.itechtalk.com/thread3595.html">http://www.itechtalk.com/thread3595.html</a>)</li>
+            <li>Add pythonpath to the system. (how-to: the same as above. If pythonpath is not in the list, create it.)</li>
+          </ul>
 
-<ul>
-<li>Download the latest python version from: <a href="http://www.python.org/download/">http://www.python.org/download/</a>
-</li>
-<li>Install it.</li>
-<li>Add python to system’s path. (how-to: <a href="http://www.itechtalk.com/thread3595.html">http://www.itechtalk.com/thread3595.html</a>)</li>
-<li>Add pythonpath to the system. (how-to: the same as above. If pythonpath is not in the list, create it.)</li>
-</ul><h3>
-<a name="5-install-setuptools" class="anchor" href="#5-install-setuptools"><span class="octicon octicon-link"></span></a>5. Install setuptools</h3>
+          <h3>5. Install setuptools</h3>
+          <ul>
+            <li>Hit windows/super button.</li>
+            <li>Start typing <code>cmd</code>
+            </li>
+            <li>Right click on cmd.exe &gt; Run as administrator</li>
+            <li>Go to the directory where the ez_setup.py is located. (Use the <code>cd</code> command to change directory)</li>
+            <li>Execute <code>python ez_setup.py</code>.</li>
+          </ul>
 
-<ul>
-<li>Hit windows/super button.</li>
-<li>Start typing <code>cmd</code>
-</li>
-<li>Right click on cmd.exe &gt; Run as administrator</li>
-<li>Go to the directory where the ez_setup.py is located. (Use the <code>cd</code> command to change directory)</li>
-<li>Execute <code>python ez_setup.py</code>.</li>
-</ul><h3>
-<a name="7-test-it" class="anchor" href="#7-test-it"><span class="octicon octicon-link"></span></a>7. Test it.</h3>
+          <h3>7. Test it.</h3>
+          <ul>
+            <li>Go to <code>your_python_directory\Scripts</code> folder.</li>
+            <li>Start <code>iptest.exe</code></li>
+          </ul>
 
-<ul>
-<li>Go to <code>your_python_directory\Scripts</code> folder.</li>
-<li>Start <code>iptest.exe</code>
-</li>
-</ul><h3>
-<a name="8-enjoy-it" class="anchor" href="#8-enjoy-it"><span class="octicon octicon-link"></span></a>8. Enjoy it.</h3>
+          <h3>8. Enjoy it.</h3>
+          <ul>
+            <li>Execute <code>ipython.exe</code>.</li>
+            <li>Or use <code>ipython notebook</code> for the notebook version.</li>
+          </ul>
 
-<ul>
-<li>Execute <code>ipython.exe</code>.</li>
-<li>Or use <code>ipython notebook</code> for the notebook version.</li>
-</ul><hr><h1>
-<a name="how-to-install-ipython-in-ubuntu" class="anchor" href="#how-to-install-ipython-in-ubuntu"><span class="octicon octicon-link"></span></a>How to install IPython in Ubuntu</h1>
+          <hr>
 
-<h2>
-<a name="tldr-1" class="anchor" href="#tldr-1"><span class="octicon octicon-link"></span></a>TL;DR:</h2>
+          <h1>How to install IPython in Ubuntu</h1>
 
-<ol>
-<li>Execute: <code>sudo apt-get install python ipython*</code>
-</li>
-</ol><h2>
-<a name="in-details-1" class="anchor" href="#in-details-1"><span class="octicon octicon-link"></span></a>In details:</h2>
+          <h2>TL;DR:</h2>
+          <ol>
+            <li>Execute: <code>sudo apt-get install python ipython*</code></li>
+          </ol>
 
-<p>No need :D</p>
-</div>
+          <h2>In details:</h2>
+          <ol>
+            <li>No need :D</li>
+          </ol>
+
+        </div>
       </section>
     </div>
 
-    
+
   </body>
 </html>
