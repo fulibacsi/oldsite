@@ -1,0 +1,22 @@
+.. image:: https://montypythoninspires.files.wordpress.com/2013/04/monty_foot.jpg
+
+Prelude to Python 101
+=====================
+
+This site will feature various materials to learn
+`Python <https://www.python.org/>`_
+and the basics of
+`programming <http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html>`_,
+`data cleansing <http://pandas.pydata.org/>`_,
+`web scraping <http://www.crummy.com/software/BeautifulSoup/>`_,
+`visualising <http://pbpython.com/visualization-tools-1.html>`_
+and - hopefully -
+`many more <http://code.activestate.com/recipes/langs/python/>`_.
+
+Most likely you're already aware of
+`Python <http://www.tiobe.com/index.php/content/paperinfo/tpci/Python.html>`_
+and (probably) you have some cumbersome task you want to automate, or a problem
+you'd like to solve. The intent behind this project is the lend you a hand and
+show some easy fix for them.
+
+This page will refresh regularly.
