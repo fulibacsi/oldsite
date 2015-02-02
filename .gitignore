@@ -79,3 +79,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#####=== IPythonNotebook ===#####
+# Temporary data
+.ipynb_checkpoints/

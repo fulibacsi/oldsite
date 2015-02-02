@@ -13,7 +13,7 @@ Contents:
 
    intro
    install
-   first
+   resources
 
 Indices and tables
 ==================
