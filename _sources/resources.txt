@@ -1,7 +1,9 @@
 Resources
 =========
 
-* First notebook :download:`resources/python_szisz_2015_1.zip` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_1.ipynb>`_)
-* Second notebook :download:`resources/python_szisz_2015_2.zip` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_2.ipynb>`_)
-* Third notebook :download:`resources/python_szisz_2015_3.zip` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_3.ipynb>`_)
+* :download:`First notebook <resources/python_szisz_2015_1.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_1.ipynb>`_)
+* :download:`Second notebook <resources/python_szisz_2015_2.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_2.ipynb>`_)
+* :download:`Third notebook <resources/python_szisz_2015_3.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_3.ipynb>`_)
+* :download:`Fourth notebook <resources/python_szisz_2015_4.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_4.ipynb>`_)
+* :download:`Fifth notebook <resources/python_szisz_2015_5.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_5.ipynb>`_)
 * More :doc:`coming_soon`
