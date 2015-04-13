@@ -1,4 +1,4 @@
-# encode: utf-8
+# encoding: utf-8
 
 import requests
 from bs4 import BeautifulSoup
