@@ -161,6 +161,8 @@ def rename_subtitle(original, new, target_dir):
     if len(target_dir):
         if not target_dir[0] == '/':
             target_dir = '/' + target_dir
+        if not target_dir[-1] == '/':
+            target_dir = target_dir + '/'
     if original in list_files(target_dir):
         os.rename('.' + target_dir + original, '.' + target_dir + new)
 
