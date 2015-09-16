@@ -1,5 +1,5 @@
 Resources
 =========
 
-* :download:`1st notebook <resources/python_szisz_2015_II_1.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_1.ipynb>`_)
+* :download:`1st notebook <resources/python_szisz_2015_II_1.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_II_1.ipynb>`_)
 * More :doc:`coming_soon`
