@@ -10,7 +10,7 @@ On Unix:
 
 .. code::
 
-    sudo apt-get install -U python jinja2 tornado numpy scipy pandas matplotlib sklearn ipython*
+    sudo apt-get install -U numpy scipy pandas matplotlib sklearn jupyter
 
 On Windows:
 -----------
