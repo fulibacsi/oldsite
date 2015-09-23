@@ -3,6 +3,7 @@
 
 # ============ imports ============
 import os
+import string
 import operator
 import csv
 import codecs
@@ -181,3 +182,46 @@ def find_episode_number(filename):
         return match.group('number')
     else:
         return None
+
+def encrypt(text, strength=4, level=1):
+    """"Encrypt" a text by inserting random character [strength] times
+    (level=1), and by  sliding the letters by [strength] positions (level=2),
+    eg. the input letter 'a' becomes 'c' if strength equals 2.
+
+    Parameters:
+    -----------
+    text: string
+        Input text to be transformed.
+    strength: int
+        Intensity parameter. It will be used to determine the number of
+        distortion characters and the sliding intensity.
+    level: [1, 2]
+        Level of encription:
+            1) Only distortion characters inserted
+            2) Beside distortion characters, the characters of the input
+               strings also slides.
+
+    Returns:
+    --------
+    encrypted: string
+        The encrypted text.
+
+    """
+    abc = string.ascii_letters
+    distortion = xrange(strength - 1)
+    if level == 1:
+        encrypted = [
+            char +
+            ''.join([random.choice(abc) for i in distortion])
+            for char in text
+        ]
+    elif level == 2:
+        encrypted = [
+            chr(ord(char)+strength) +
+            ''.join([random.choice(abc) for i in distortion])
+            for char in text
+        ]
+
+    return ''.join(encrypted)
+
+    
