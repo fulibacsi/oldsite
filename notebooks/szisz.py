@@ -91,6 +91,8 @@ def list_files(target_dir=''):
 # fake download function
 def download(_name='super_series', _seasons=7, _episodes=24, _mismatch=False):
     """Download the specified series into a directory.
+    One should wear sunglass to avoid injuries caused by this awesome function!
+
     Arguments:
         _name: name of the series. default: 'super_series'
         _seasons: the number of seasons. default: 7
