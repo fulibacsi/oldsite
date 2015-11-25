@@ -9,5 +9,6 @@ Resources
 * :download:`6th notebook <resources/python_szisz_2015_II_6.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_II_6.ipynb>`_)
 * :download:`7th notebook <resources/python_szisz_2015_II_7.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_II_7.ipynb>`_)
 * :download:`8th notebook <resources/python_szisz_2015_II_8.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_II_8.ipynb>`_)
+* :download:`9th notebook <resources/python_szisz_2015_II_9.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/python101_szisz_II_9.ipynb>`_)
 * More :doc:`coming_soon`
 
