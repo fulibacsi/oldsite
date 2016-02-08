@@ -13,7 +13,8 @@ Contents:
 
    intro
    install
-   resources
+   python_resources
+   data_science_resources
 
 Indices and tables
 ==================
