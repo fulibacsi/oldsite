@@ -6,4 +6,5 @@ Data Science Resources
 * :download:`3rd notebook <resources/ds_szisz_2016_I_3.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/DS_szisz_2016_I_3.ipynb>`_)
 * :download:`4th notebook <resources/ds_szisz_2016_I_4.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/DS_szisz_2016_I_4.ipynb>`_)
 * :download:`5th notebook <resources/ds_szisz_2016_I_5.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/DS_szisz_2016_I_5.ipynb>`_)
+* :download:`6th notebook <resources/ds_szisz_2016_I_6.zip>` (`Rendered notebook <http://nbviewer.ipython.org/url/fulibacsi.github.io/notebooks/DS_szisz_2016_I_6.ipynb>`_)
 * More :doc:`coming_soon`
